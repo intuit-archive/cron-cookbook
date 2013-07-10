@@ -1,5 +1,5 @@
 require 'foodcritic'
-require 'emeril/rake'
+require 'emeril/rake_tasks'
 
 FoodCritic::Rake::LintTask.new do |t|
     t.options = { :fail_tags => ['any'] }
