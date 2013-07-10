@@ -1,8 +1,6 @@
 action :create do
   name = new_resource.name
 
-  raise ArgumentError.new 'name must be specified' if name.nil? || name.empty?
-
   execute "add #{name} to /etc/cron.allow" do
     command "echo #{name} >> /etc/cron.allow"
     not_if do
