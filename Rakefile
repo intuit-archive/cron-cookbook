@@ -6,9 +6,10 @@ FoodCritic::Rake::LintTask.new do |t|
 end
 
 Emeril::RakeTasks.new do |t|
+  t.config[:logger]               = Logger.new(STDOUT)
   t.config[:publish_to_community] = false
   t.config[:publisher]            = false
-  t.config[:logger]               = Logger.new(STDOUT)
+  t.config[:tag_prefix]           = false
 end
 
 task :default => [:foodcritic]
