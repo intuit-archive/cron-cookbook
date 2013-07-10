@@ -8,7 +8,7 @@ end
 Emeril::RakeTasks.new do |t|
   t.config[:logger]               = Logger.new(STDOUT)
   t.config[:publish_to_community] = false
-  t.config[:publisher]            = false
+  t.config[:publisher]            = nil
   t.config[:tag_prefix]           = false
 end
 
