@@ -19,9 +19,17 @@ None
 ## default
 Configures cron
 
-# Definitions
-## cron_authorization
-Given a user passed it authorizes access to cron
+# Resources/Providers
+## authorization
+Adds a provided username to /etc/cron.allow.
+
+- `:create` adds a `name` to /etc/cron.allow
+
+### Example
+``` ruby
+cron_authorization "johnsmith"
+```
+
 
 # Authors
 * Thomas Bishop (@thbishop)
