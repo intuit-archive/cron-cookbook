@@ -1,4 +1,4 @@
-name             'cron-cookbook'
+name             'cron'
 maintainer       'Chad Cloes'
 maintainer_email 'chad_cloes@intuit.com'
 license          'Apache 2.0'
