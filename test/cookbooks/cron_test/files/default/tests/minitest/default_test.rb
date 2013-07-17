@@ -1,4 +1,3 @@
-
 describe "cron_test" do
   
   it "creates the cron.allow file and adds to it" do
