@@ -1,0 +1,16 @@
+{
+  "sources": {
+    "cron": {
+      "path": "."
+    },
+    "minitest-handler": {
+      "locked_version": "0.2.1"
+    },
+    "cron_test": {
+      "path": "./test/cookbooks/cron_test"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    }
+  }
+}
