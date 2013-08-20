@@ -121,6 +121,7 @@ GEM
       slop (~> 3.4)
     rack (1.5.2)
     rak (1.4)
+    rake (10.0.4)
     rbzip2 (0.2.0)
     rest-client (1.6.7)
       mime-types (>= 1.16)
@@ -192,4 +193,5 @@ DEPENDENCIES
   emeril (~> 0.6.0)
   foodcritic (~> 2.1.0)
   kitchen-vagrant
+  rake
   test-kitchen (~> 1.0.0.alpha.7)
