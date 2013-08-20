@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/intuit/cron-cookbook.png)](http://travis-ci.org/intuit/cron-cookbook)
+
 # cron cookbook
 Configures cron
 
