@@ -1,5 +1,7 @@
 [![Build Status](https://secure.travis-ci.org/intuit/cron-cookbook.png)](http://travis-ci.org/intuit/cron-cookbook)
 
+**!!! This project has been deprecated.  We recommend you search the [Chef Supermarket ](https://supermarket.chef.io/) for a supported alternative !!!**
+
 # cron cookbook
 Configures cron
 
